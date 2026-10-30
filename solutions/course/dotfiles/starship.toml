@@ -1,0 +1,16 @@
+# prompt starship minimal pour l'atelier
+add_newline = true
+
+format = "[$directory]($style)[$git_branch]($style)$character"
+
+[directory]
+truncation_length = 3
+style = "bold cyan"
+
+[git_branch]
+style = "italic cyan"
+format = "[$branch]($style) "
+
+[character]
+success_symbol = "[>](bold cyan)"
+error_symbol = "[x](bold red)"

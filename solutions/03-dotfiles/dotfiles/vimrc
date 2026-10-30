@@ -1,0 +1,7 @@
+" config vim d'exemple pour l'atelier
+set number
+set relativenumber
+set expandtab
+set shiftwidth=4
+set tabstop=4
+syntax on

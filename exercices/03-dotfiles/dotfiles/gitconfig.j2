@@ -1,0 +1,17 @@
+[user]
+	name = {{ nom }}
+	email = {{ email }}
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = vim
+
+[pull]
+	rebase = false
+
+# En vraie vie: ne jamais utiliser "store" (mot de passe en clair).
+# "cache" garde le mot de passe en memoire, limite a une heure ici.
+[credential]
+	helper = cache --timeout=3600

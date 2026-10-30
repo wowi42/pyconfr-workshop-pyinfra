@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+pyinfra-debug.log
+
+# maisons de test crees par les exercices
+.pyconfr-test-home/
+faux-home/
+pyconfr-test/
